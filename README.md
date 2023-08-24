@@ -22,7 +22,7 @@ Alternatively, you can check the image of the diagram included in the project.
 
 -- count the actors with “Temple” as their last name
 
--- list all addresses in England with smaller city id’s than 500
+-- list all addresses in “England” district with smaller city id’s than 500
 
 -- what is the customer id and the payment amount of the last payment
 
