@@ -45,7 +45,9 @@ Alternatively, you can check the image of the diagram included in the project.
 ### With GROUP BY:
 
 –- which is the most common last name among the actors?
+
 -- calculate how much would it cost to rent all dvds for each rating
+
 -- what is the customer id for the person renting the highest amount of dvds
 
 ### Write queries for each of the following questions:
