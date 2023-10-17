@@ -62,17 +62,28 @@
 -- ORDER BY cost;
 
 -- what is the customer id for the person renting the highest amount of dvds
+-- SELECT customer_id, max(inventory_id) FROM dvd_rental.public.rental
+-- GROUP BY customer_id;
 
 --Write queries for each of the following questions:
 -- Who is the actor with the initials B. D. ?
+-- SELECT * FROM actor
+-- WHERE first_name LIKE 'B%' AND last_name LIKE 'D%';
 
 -- Get a list of all the rentals that happened on your birthday
+-- SELECT * FROM rental
+-- WHERE (rental_date)::DATE = '2005-05-27';
 
 -- List all actors whose last name starts with B
+-- SELECT * FROM actor
+-- WHERE last_name LIKE 'B%';
 
 -- Find all addresses in the system from California district
+-- SELECT * FROM address
+-- WHERE district = 'California';
 
 -- List all the movies which has Japanese language
+
 
 -- List all Sci-Fi films which feature robot(s)
 
